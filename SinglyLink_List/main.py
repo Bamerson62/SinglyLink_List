@@ -1,5 +1,6 @@
 from singly_linked_list import SinglyLinkedList
 
+
 def test_list(build_method):
     lst = SinglyLinkedList()
     build_method(lst, [10, 20, 30, 40, 50])
